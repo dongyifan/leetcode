@@ -2,7 +2,7 @@
 
 #include <string>
 #include <map>
-using namespace std;
+using std::string;
 class Solution13 {
 public:
     int romanToInt(string s) {
@@ -18,7 +18,7 @@ public:
         };
 
         int number = 0;
-        for (int i = s.length() - 1; i >= 0; --i) {
+        for (int i = static_cast<int>(s.length() - 1); i >= 0; --i) {
             char n = s[i];
             if ((n == 'V' || n == 'X') && i > 0 && s[i-1] == 'I') {
                 number += m[n];

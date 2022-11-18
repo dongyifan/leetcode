@@ -15,5 +15,38 @@
     <ClInclude Include="13.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="234.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="383.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="412.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="876.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="1337.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="1342.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="1672.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructure.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="1.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
