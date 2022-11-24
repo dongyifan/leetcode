@@ -17,11 +17,6 @@
 #include "8.h"
 int main()
 {
-    int a = 10;
-    int* p = &a;
-    void* pv = p;
-    double* pd = pv;
-
     for (int i = 0; i < 10; i++) {
         std::string s = std::to_string(i);
         int r = (int)s[0];
