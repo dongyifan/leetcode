@@ -140,6 +140,8 @@
     <ClInclude Include="3.h" />
     <ClInclude Include="383.h" />
     <ClInclude Include="412.h" />
+    <ClInclude Include="7.h" />
+    <ClInclude Include="8.h" />
     <ClInclude Include="876.h" />
     <ClInclude Include="DataStructure.h" />
   </ItemGroup>

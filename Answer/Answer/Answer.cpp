@@ -2,6 +2,7 @@
 //
 
 #include <iostream>
+#include <numeric>
 #include "13.h"
 #include "234.h"
 #include "383.h"
@@ -12,8 +13,24 @@
 #include "1672.h"
 #include "1.h"
 #include "3.h"
+#include "7.h"
+#include "8.h"
 int main()
 {
+    int a = 10;
+    int* p = &a;
+    void* pv = p;
+    double* pd = pv;
+
+    for (int i = 0; i < 10; i++) {
+        std::string s = std::to_string(i);
+        int r = (int)s[0];
+        std::cout << r << '\t';
+    }
+   
+    std::cout << "\n";
+    std::cout << Solution8{}.myAtoi("-123") << "\n";
+    std::cout << Solution7{}.reverse(-123) << "\n";
     std::cout << "Hello World!\n";
     Solution13 s13;
     std::cout << s13.romanToInt("III") << '\n';
