@@ -134,8 +134,11 @@
     <ClInclude Include="13.h" />
     <ClInclude Include="1337.h" />
     <ClInclude Include="1342.h" />
+    <ClInclude Include="14.h" />
     <ClInclude Include="1672.h" />
     <ClInclude Include="2.h" />
+    <ClInclude Include="20.h" />
+    <ClInclude Include="21.h" />
     <ClInclude Include="234.h" />
     <ClInclude Include="3.h" />
     <ClInclude Include="383.h" />

@@ -54,5 +54,14 @@
     <ClInclude Include="8.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="14.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="20.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="21.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
