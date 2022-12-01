@@ -3,28 +3,27 @@
 
 #include <iostream>
 #include <numeric>
-#include "13.h"
-#include "234.h"
-#include "383.h"
-#include "412.h"
-#include "1337.h"
-#include "876.h"
-#include "1342.h"
-#include "1672.h"
-#include "1.h"
-#include "3.h"
-#include "7.h"
-#include "8.h"
-#include "20.h"
+#include "13-roman-to-integer.h"
+#include "234-palindrome-linked-list.h"
+#include "383-ransom-note.h"
+#include "412-fizz-buzz.h"
+#include "1337-the-k-weakest-rows-in-a-matrix.h"
+#include "876-middle-of-the-linked-list.h"
+#include "1342-number-of-steps-to-reduce-a-number-to-zero.h"
+#include "1672-richest-customer-wealth.h"
+#include "1-two-sum.h"
+#include "3-longest-substring-without-repeating-characters.h"
+#include "7-reverse-integer.h"
+#include "8-string-to-integer-atoi.h"
+#include "20-valid-parentheses.h"
+#include "26-remove-duplicates-from-sorted-array.h"
+#include "69-sqrtx.h"
+#include "88-merge-sorted-array.h"
+#include "125-valid-palindrome.h"
 int main()
-{
-    for (int i = 0; i < 10; i++) {
-        std::string s = std::to_string(i);
-        int r = (int)s[0];
-        std::cout << r << '\t';
-    }
-   
-    std::cout << "\n";
+{  
+    int a1 = 'a';
+    int A1 = 'A';
     std::cout << Solution8{}.myAtoi("-123") << "\n";
     std::cout << Solution7{}.reverse(-123) << "\n";
     std::cout << "Hello World!\n";
@@ -44,7 +43,21 @@ int main()
     std::vector<std::vector<int>> accounts = { {1, 2, 3}, {3, 2, 1} };
     std::cout << "max: " << Solution1672{}.maximumWealth(accounts);
 
-    std::cout << "maxlenght: " << Solution3{}.lengthOfLongestSubstring("abcabcbb");
+    std::cout << "maxlenght: " << Solution3{}.lengthOfLongestSubstring("abcabcbb") << "\n";
+
+    std::vector<int> v = { 1,1,3,4,4,6 };
+    std::cout << "unique length: " << Solution26{}.removeDuplicates(v) << "\n";
+
+    Solution69{}.mySqrt(3);
+
+    std::vector<int> m = {1, 2, 3, 0, 0, 0 };
+    std::vector<int> n = { 4, 5, 6 };
+    Solution88{}.merge(m, 3, n, 3);
+
+    //bool is = Solution125{}.isPalindrome("     ");
+    //is = Solution125{}.isPalindrome("  a  ");
+    bool is = Solution125{}.isPalindrome("  0  1");
+    is = Solution125{}.isPalindrome("A man, a plan, a canal : Panama");
 
     return 0;
 }
