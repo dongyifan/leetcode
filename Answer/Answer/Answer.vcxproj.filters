@@ -99,5 +99,14 @@
     <ClInclude Include="125-valid-palindrome.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="136-single-number.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="141-linked-list-cycle.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="160-intersection-of-two-linked-lists.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

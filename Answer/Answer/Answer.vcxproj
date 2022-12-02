@@ -140,7 +140,10 @@
     <ClInclude Include="13-roman-to-integer.h" />
     <ClInclude Include="1337-the-k-weakest-rows-in-a-matrix.h" />
     <ClInclude Include="1342-number-of-steps-to-reduce-a-number-to-zero.h" />
+    <ClInclude Include="136-single-number.h" />
     <ClInclude Include="14-longest-common-prefix.h" />
+    <ClInclude Include="141-linked-list-cycle.h" />
+    <ClInclude Include="160-intersection-of-two-linked-lists.h" />
     <ClInclude Include="1672-richest-customer-wealth.h" />
     <ClInclude Include="2-add-two-numbers.h" />
     <ClInclude Include="20-valid-parentheses.h" />
