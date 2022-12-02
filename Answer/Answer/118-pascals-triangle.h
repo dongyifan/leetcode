@@ -2,7 +2,7 @@
 #include <vector>
 using std::vector;
 
-class Solution {
+class Solution118 {
 public:
     vector<vector<int>> generate(int numRows) {
         vector<vector<int>> result;
