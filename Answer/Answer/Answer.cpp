@@ -20,8 +20,17 @@
 #include "69-sqrtx.h"
 #include "88-merge-sorted-array.h"
 #include "125-valid-palindrome.h"
+#include "191-number-of-1-bits.h"
+#include "202-happy-number.h"
+#include "242-valid-anagram.h"
 int main()
-{  
+{
+    int sum = 0;
+    for (int i = 1; i <= 9; ++i) {
+        sum += i;
+    }
+    bool rs = Solution202{}.isHappy(19);
+    
     int a1 = 'a';
     int A1 = 'A';
     std::cout << Solution8{}.myAtoi("-123") << "\n";

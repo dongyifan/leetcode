@@ -108,5 +108,26 @@
     <ClInclude Include="160-intersection-of-two-linked-lists.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="169-majority-element.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="171-excel-sheet-column-number.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="190-reverse-bits.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="191-number-of-1-bits.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="202-happy-number.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="271-contains-duplicate.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="242-valid-anagram.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
