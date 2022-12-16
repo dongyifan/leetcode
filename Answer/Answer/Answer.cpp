@@ -3,6 +3,8 @@
 
 #include <iostream>
 #include <numeric>
+#include <array>
+#include "DataStructure.h"
 #include "13-roman-to-integer.h"
 #include "234-palindrome-linked-list.h"
 #include "383-ransom-note.h"
@@ -23,8 +25,53 @@
 #include "191-number-of-1-bits.h"
 #include "202-happy-number.h"
 #include "242-valid-anagram.h"
+#include "283-move-zeroes.h"
+#include "5-longest-palindromic-substring.h"
+#include "11-container-with-most-water.h"
+#include "15-3sum.h"
+#include "17-letter-combinations-of-a-phone-number.h"
+#include "206-reverse-linked-list.h"
+#include "19-remove-nth-node-from-end-of-list.h"
+#include "22-generate-parentheses.h"
+
+
 int main()
 {
+    {
+        auto rv = Solution22().generateParenthesis(2);
+    }
+    {
+        std::array arr = { 1,2, 3, 4 };
+        ListNode* head = nullptr;
+        ListNode* tail = head;
+        for (int v : arr) {
+            if (head == nullptr) {
+                head = new ListNode(v);
+                tail = head;
+            }
+            else {
+                tail->next = new ListNode(v);
+                tail = tail->next;
+            }
+        }
+        printList(head);
+        head = Solution19().removeNthFromEnd(head, 1);
+        printList(head);
+        return 0;
+    }
+    auto vdig = Solution17{}.letterCombinations2("23");
+    for (auto& s : vdig) {
+        std::cout << s << " ";
+    }
+    std::cout << "\n";
+    int three = std::pow(3, 19);
+    std::vector<int> includeZero = { 7, 0, 1, 2, 4, 0, 5, 0 };
+    Solution283{}.moveZeroes(includeZero);
+    for (auto i : includeZero) {
+        std::cout << i << " ";
+    }
+    return 0;
+
     int sum = 0;
     for (int i = 1; i <= 9; ++i) {
         sum += i;

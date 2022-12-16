@@ -129,5 +129,44 @@
     <ClInclude Include="242-valid-anagram.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="268-missing-number.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="206-reverse-linked-list.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="283-move-zeroes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="326-power-of-three.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="344-reverse-string.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="350-intersection-of-two-arrays-ii.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="387-first-unique-character-in-a-string.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="5-longest-palindromic-substring.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="11-container-with-most-water.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="15-3sum.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="17-letter-combinations-of-a-phone-number.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="19-remove-nth-node-from-end-of-list.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="22-generate-parentheses.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

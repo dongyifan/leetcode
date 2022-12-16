@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -134,9 +135,11 @@
     <ClInclude Include="101-symmetric-tree.h" />
     <ClInclude Include="104-maximum-depth-of-binary-tree.h" />
     <ClInclude Include="108-convert-sorted-array-to-binary-search-tree.h" />
+    <ClInclude Include="11-container-with-most-water.h" />
     <ClInclude Include="118-pascals-triangle.h" />
     <ClInclude Include="121-best-time-to-buy-and-sell-stock.h" />
     <ClInclude Include="125-valid-palindrome.h" />
+    <ClInclude Include="15-3sum.h" />
     <ClInclude Include="13-roman-to-integer.h" />
     <ClInclude Include="1337-the-k-weakest-rows-in-a-matrix.h" />
     <ClInclude Include="1342-number-of-steps-to-reduce-a-number-to-zero.h" />
@@ -146,20 +149,31 @@
     <ClInclude Include="160-intersection-of-two-linked-lists.h" />
     <ClInclude Include="1672-richest-customer-wealth.h" />
     <ClInclude Include="169-majority-element.h" />
+    <ClInclude Include="17-letter-combinations-of-a-phone-number.h" />
     <ClInclude Include="171-excel-sheet-column-number.h" />
+    <ClInclude Include="19-remove-nth-node-from-end-of-list.h" />
     <ClInclude Include="190-reverse-bits.h" />
     <ClInclude Include="191-number-of-1-bits.h" />
     <ClInclude Include="2-add-two-numbers.h" />
     <ClInclude Include="20-valid-parentheses.h" />
     <ClInclude Include="202-happy-number.h" />
+    <ClInclude Include="206-reverse-linked-list.h" />
     <ClInclude Include="21-merge-two-sorted-lists.h" />
+    <ClInclude Include="22-generate-parentheses.h" />
     <ClInclude Include="234-palindrome-linked-list.h" />
     <ClInclude Include="242-valid-anagram.h" />
     <ClInclude Include="26-remove-duplicates-from-sorted-array.h" />
+    <ClInclude Include="268-missing-number.h" />
     <ClInclude Include="271-contains-duplicate.h" />
+    <ClInclude Include="283-move-zeroes.h" />
     <ClInclude Include="3-longest-substring-without-repeating-characters.h" />
+    <ClInclude Include="326-power-of-three.h" />
+    <ClInclude Include="344-reverse-string.h" />
+    <ClInclude Include="350-intersection-of-two-arrays-ii.h" />
     <ClInclude Include="383-ransom-note.h" />
+    <ClInclude Include="387-first-unique-character-in-a-string.h" />
     <ClInclude Include="412-fizz-buzz.h" />
+    <ClInclude Include="5-longest-palindromic-substring.h" />
     <ClInclude Include="66-plus-one.h" />
     <ClInclude Include="69-sqrtx.h" />
     <ClInclude Include="7-reverse-integer.h" />
